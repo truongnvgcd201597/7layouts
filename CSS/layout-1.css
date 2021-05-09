@@ -1,0 +1,35 @@
+
+.container{
+    max-width:960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    color: white;
+     text-align: center; 
+}
+.flex{
+    flex:100%;
+}
+#header{
+    background-color: #0073aa;
+    margin: 0px;
+}
+#header h2{
+    padding: 15px 0px;
+    margin: 0;
+    font-size: 20px;
+}
+#content{
+    min-height: 600px;
+    background-color: whitesmoke;
+}
+#footer{
+    background-color: black;
+}
+#footer p{
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 0px;
+}
